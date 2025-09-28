@@ -45,7 +45,7 @@ const UploadProduct = () => {
       <div className="max-w-4xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-indigo to-purple bg-clip-text text-transparent mb-4">
+          <h1 className="text-4xl font-bold text-black">
             ✨ AI-Powered Creation Upload
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">

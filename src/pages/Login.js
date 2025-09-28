@@ -129,7 +129,7 @@ const Login = ({ onLogin }) => {
         {/* Demo Credentials */}
         <div className="mt-6 p-4 bg-yellow-50 border border-yellow-200 rounded-xl">
           <p className="text-sm text-yellow-800 text-center">
-            <strong>Demo Login:</strong> Use <code>demo@artisanhub.com</code> / <code>password123</code>
+            <strong>Demo Login:</strong> Use <code>demo@KalaMitra.com</code> / <code>password123</code>
           </p>
         </div>
       </div>

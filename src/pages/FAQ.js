@@ -10,7 +10,7 @@ const faqs = [
 ];
 
 const videos = [
-  { title: "How to Create a Seller Account", url: "https://www.youtube.com/embed/KVZ-P-ZI6W4", duration: "4:32", description: "Step-by-step guide to setting up your seller profile and getting verified." },
+  { title: "How to Create a Seller Account", url: "https://www.youtube.com/embed/KVZ-P-ZI6W", duration: "4:32", description: "Step-by-step guide to setting up your seller profile and getting verified." },
   { title: "How to Upload and Manage Products", url: "https://www.youtube.com/embed/P1aQA4bzAtk", duration: "6:15", description: "Learn how to add product listings, upload high-quality photos, and manage your stock." },
   { title: "How to Place an Order as a Buyer", url: "https://www.youtube.com/embed/f1hsAAze6gE", duration: "3:48", description: "Complete walkthrough of the purchasing process, from searching to checkout." },
 ];
@@ -27,7 +27,7 @@ const FAQ = () => {
       {/* Header */}
       <header className="flex items-center justify-between px-6 py-4 bg-white shadow-sm">
         <div className="flex items-center gap-4">
-          <span className="text-2xl font-bold text-indigo-700">ArtisanHub</span>
+          <span className="text-2xl font-bold text-indigo-700">KalaMitra</span>
           <Link
             to="/"
             className="flex items-center gap-1 px-3 py-2 rounded-lg text-gray-700 border border-gray-200 hover:bg-gray-100 transition-colors text-base"
@@ -83,7 +83,7 @@ const FAQ = () => {
 
         {/* How-To Video Guides */}
         <h3 className="text-3xl font-bold text-center mt-20 mb-2 flex items-center gap-2 justify-center">
-          <span role="img" aria-label="video">📹</span> How-To Video Guides
+          <span role="img" aria-label="video">📹</span> Step-by-Step Video Guides
         </h3>
         <p className="text-center text-gray-600 mb-8">
           Watch step-by-step video tutorials to learn how to use all features of our platform effectively.

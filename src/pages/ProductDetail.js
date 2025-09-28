@@ -6,7 +6,7 @@ const mockProducts = {
   1: { 
     name: 'Rajasthani Blue Pottery Vase', 
     price: 850, 
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=800&fit=crop',
+    image: 'https://imgs.search.brave.com/QDzITZ6Cp-sQ9_MnWPK5ofaxYG0L58QvqFIYYYEKwXg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzI1NTYxMTg5L3Iv/aWwvNmI1NjhkLzI5/MDIyMzcwODcvaWxf/NjAweDYwMC4yOTAy/MjM3MDg3X3N0aWku/anBn',
     story: 'Handcrafted by the skilled potters of Jaipur using traditional techniques passed down through generations. Each piece is made from local clay and painted with natural cobalt blue pigments. The artisans, belonging to the Kumhar community, have been preserving this 500-year-old craft for centuries.',
     description: 'This stunning blue pottery vase features intricate floral patterns inspired by Mughal architecture. Perfect for home decor or as a thoughtful gift. Each vase is unique due to the handmade nature of the craft.',
     category: 'Pottery',
@@ -26,7 +26,7 @@ const mockProducts = {
   2: { 
     name: 'Kerala Palm Leaf Basket', 
     price: 450, 
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=800&fit=crop',
+    image: 'https://imgs.search.brave.com/sl_6boDS8HlxrMP3TMpK-v66TPQAC0xGmAcxZ9n6_cU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly81Lmlt/aW1nLmNvbS9kYXRh/NS9KRi9WRy9NWS0z/ODU2NDgyNS9wYWxt/LWxlYWYtYmFza2V0/LTUwMHg1MDAuanBn',
     story: 'Woven by women artisans in rural Kerala using sustainable palm leaves. This cooperative of 50 women artisans works to preserve traditional weaving techniques while providing sustainable income for their families.',
     description: 'Beautifully woven palm leaf basket perfect for storage, gifting, or as a decorative piece. Each basket is handwoven using the traditional coir method.',
     category: 'Baskets',
@@ -46,7 +46,7 @@ const mockProducts = {
   3: { 
     name: 'Banarasi Silk Saree', 
     price: 2450, 
-    image: 'https://images.unsplash.com/photo-1585487000156-3d9178e3247d?w=800&h=800&fit=crop',
+    image: 'https://imgs.search.brave.com/NaDFkNhsboql7ND1znwtixgQvlPXqHx4TPPxFTfO3TA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/a2FyYWdpcmkuY29t/L2Nkbi9zaG9wL2Zp/bGVzL1BBVE9MQS0x/MTA0LTRfMzAweC5q/cGc_dj0xNzExNDUx/Nzcy',
     story: 'Meticulously woven on traditional looms by master weavers of Varanasi. This saree represents the rich textile heritage of Northern India, with motifs inspired by ancient temple carvings.',
     description: 'Luxurious Banarasi silk saree featuring intricate gold zari work. Perfect for weddings, festivals, and special occasions.',
     category: 'Textiles',

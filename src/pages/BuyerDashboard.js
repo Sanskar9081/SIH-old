@@ -7,7 +7,7 @@ const mockProducts = [
     id: 1, 
     name: 'Rajasthani Blue Pottery Vase', 
     price: 850, 
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=400&fit=crop',
+    image: 'https://imgs.search.brave.com/QDzITZ6Cp-sQ9_MnWPK5ofaxYG0L58QvqFIYYYEKwXg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzI1NTYxMTg5L3Iv/aWwvNmI1NjhkLzI5/MDIyMzcwODcvaWxf/NjAweDYwMC4yOTAy/MjM3MDg3X3N0aWku/anBn',
     story: 'Handcrafted by the skilled potters of Jaipur using traditional techniques passed down through generations.',
     category: 'Pottery',
     rating: 4.9,
@@ -17,7 +17,7 @@ const mockProducts = [
     id: 2, 
     name: 'Kerala Palm Leaf Basket', 
     price: 450, 
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop',
+    image: 'https://imgs.search.brave.com/sl_6boDS8HlxrMP3TMpK-v66TPQAC0xGmAcxZ9n6_cU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly81Lmlt/aW1nLmNvbS9kYXRh/NS9KRi9WRy9NWS0z/ODU2NDgyNS9wYWxt/LWxlYWYtYmFza2V0/LTUwMHg1MDAuanBn',
     story: 'Woven by women artisans in rural Kerala using sustainable palm leaves.',
     category: 'Baskets',
     rating: 4.8,
@@ -27,7 +27,7 @@ const mockProducts = [
     id: 3, 
     name: 'Banarasi Silk Saree', 
     price: 2450, 
-    image: 'https://images.unsplash.com/photo-1585487000156-3d9178e3247d?w=400&h=400&fit=crop',
+    image: 'https://imgs.search.brave.com/NaDFkNhsboql7ND1znwtixgQvlPXqHx4TPPxFTfO3TA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/a2FyYWdpcmkuY29t/L2Nkbi9zaG9wL2Zp/bGVzL1BBVE9MQS0x/MTA0LTRfMzAweC5q/cGc_dj0xNzExNDUx/Nzcy',
     story: 'Meticulously woven on traditional looms by master weavers of Varanasi.',
     category: 'Textiles',
     rating: 5.0,
@@ -37,7 +37,7 @@ const mockProducts = [
     id: 4, 
     name: 'Madhubani Folk Art Painting', 
     price: 1200, 
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop',
+    image: 'https://imgs.search.brave.com/IzuGnOry3pdpJ3KXV2XnJYNQrwbj_Mn50k8kp6eZvxU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFMVUQwRGhvTkwu/anBn',
     story: 'Created using natural colors by Bihar\'s renowned Madhubani artists.',
     category: 'Paintings',
     rating: 4.7,
@@ -66,7 +66,7 @@ const BuyerDashboard = ({ onLogout }) => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-4">
               <Link to="/" className="text-2xl font-bold text-black">
-                ArtisanHub
+                KalaMitra
               </Link>
               <div className="hidden md:block">
                 <span className="text-sm text-gray-500">👋 Welcome, Guest</span>
@@ -208,7 +208,7 @@ const BuyerDashboard = ({ onLogout }) => {
         <div className="max-w-7xl mx-auto text-center lg:text-left grid grid-cols-1 lg:grid-cols-4 gap-12 relative z-10">
           {/* Brand Section */}
           <div className="space-y-6">
-            <h3 className="text-3xl font-bold bg-gradient-to-r from-yellow-300 to-orange-500 bg-clip-text text-transparent">ArtisanHub</h3>
+            <h3 className="text-3xl font-bold bg-gradient-to-r from-yellow-300 to-orange-500 bg-clip-text text-transparent">KalaMitra</h3>
             <p className="text-gray-300 leading-relaxed max-w-xs">
               Celebrating India's artisans by bridging tradition with technology. Empowering creators and preserving heritage.
             </p>
@@ -232,17 +232,11 @@ const BuyerDashboard = ({ onLogout }) => {
               <li><Link to="/faq" className="text-gray-300 hover:text-yellow-300 transition-colors">FAQs</Link></li>
               <li><Link to="/login" className="text-gray-300 hover:text-yellow-300 transition-colors">Login</Link></li>
               <li><Link to="/signup" className="text-gray-300 hover:text-yellow-300 transition-colors">Sign Up</Link></li>
-              <li><a href="mailto:support@artisanhub.com" className="text-gray-300 hover:text-yellow-300 transition-colors">Contact Us</a></li>
+              <li><a href="mailto:support@KalaMitra.com" className="text-gray-300 hover:text-yellow-300 transition-colors">Contact Us</a></li>
             </ul>
           </div>
 
-          {/* Contact Information */}
-          <div className="space-y-4">
-            <h4 className="text-lg font-semibold text-yellow-300 mb-4">Get in Touch</h4>
-            <p className="text-gray-300">Email: <a href="mailto:support@artisanhub.com" className="hover:text-yellow-300 transition-colors">support@artisanhub.com</a></p>
-            <p className="text-gray-300">Phone: +91-123-456-7890</p>
-            <p className="text-gray-300">Support Hours: 9 AM - 6 PM IST, Mon-Sat</p>
-          </div>
+          
 
           {/* Newsletter Signup */}
           <div className="space-y-4">
@@ -268,12 +262,12 @@ const BuyerDashboard = ({ onLogout }) => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-6 border-t border-gray-700 text-center">
           <p className="text-sm text-gray-400">
-            © {new Date().getFullYear()} ArtisanHub | All rights reserved |
+            © {new Date().getFullYear()} KalaMitra | All rights reserved |
             <a href="/terms" className="text-yellow-300 hover:underline ml-2">Terms</a> |
             <a href="/privacy" className="text-yellow-300 hover:underline ml-2">Privacy</a>
           </p>
           <p className="text-xs text-gray-500 mt-2">
-            Built with ❤️ in India | Version 1.0 | Last updated: {new Date().toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit', hour12: true })} IST
+            Built with ❤️ in India 
           </p>
         </div>
       </footer>

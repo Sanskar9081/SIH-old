@@ -30,8 +30,8 @@ const Login = ({ onLogin }) => {
         {/* Card */}
         <div className="card">
           <div className="text-center mb-8">
-            <h2 className="text-4xl font-bold bg-gradient-to-r from-indigo to-purple-600 bg-clip-text text-transparent mb-2">
-              Welcome Back
+            <h2 className="text-4xl font-bold text-black mb-2">
+            Welcome Back
             </h2>
             <p className="text-gray-600">Sign in to your artisan account</p>
           </div>

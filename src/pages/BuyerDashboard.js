@@ -65,7 +65,7 @@ const BuyerDashboard = ({ onLogout }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-4">
-              <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-indigo to-purple-600 bg-clip-text text-transparent">
+              <Link to="/" className="text-2xl font-bold text-black">
                 ArtisanHub
               </Link>
               <div className="hidden md:block">
@@ -201,8 +201,84 @@ const BuyerDashboard = ({ onLogout }) => {
             </button>
           </div>
         )}
+        
       </div>
+      <footer className="bg-gradient-to-br from-gray-900 to-indigo-900 text-white py-16 px-4 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10 cultural-pattern"></div>
+        <div className="max-w-7xl mx-auto text-center lg:text-left grid grid-cols-1 lg:grid-cols-4 gap-12 relative z-10">
+          {/* Brand Section */}
+          <div className="space-y-6">
+            <h3 className="text-3xl font-bold bg-gradient-to-r from-yellow-300 to-orange-500 bg-clip-text text-transparent">ArtisanHub</h3>
+            <p className="text-gray-300 leading-relaxed max-w-xs">
+              Celebrating India's artisans by bridging tradition with technology. Empowering creators and preserving heritage.
+            </p>
+            <div className="flex justify-center lg:justify-start space-x-6">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-yellow-300 transition-colors">
+                <span className="text-2xl">🌐</span>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-yellow-300 transition-colors">
+                <span className="text-2xl">🐦</span>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-yellow-300 transition-colors">
+                <span className="text-2xl">📸</span>
+              </a>
+            </div>
+          </div>
+
+          {/* Quick Links */}
+          <div className="space-y-4">
+            <h4 className="text-lg font-semibold text-yellow-300 mb-4">Quick Links</h4>
+            <ul className="space-y-2">
+              <li><Link to="/faq" className="text-gray-300 hover:text-yellow-300 transition-colors">FAQs</Link></li>
+              <li><Link to="/login" className="text-gray-300 hover:text-yellow-300 transition-colors">Login</Link></li>
+              <li><Link to="/signup" className="text-gray-300 hover:text-yellow-300 transition-colors">Sign Up</Link></li>
+              <li><a href="mailto:support@artisanhub.com" className="text-gray-300 hover:text-yellow-300 transition-colors">Contact Us</a></li>
+            </ul>
+          </div>
+
+          {/* Contact Information */}
+          <div className="space-y-4">
+            <h4 className="text-lg font-semibold text-yellow-300 mb-4">Get in Touch</h4>
+            <p className="text-gray-300">Email: <a href="mailto:support@artisanhub.com" className="hover:text-yellow-300 transition-colors">support@artisanhub.com</a></p>
+            <p className="text-gray-300">Phone: +91-123-456-7890</p>
+            <p className="text-gray-300">Support Hours: 9 AM - 6 PM IST, Mon-Sat</p>
+          </div>
+
+          {/* Newsletter Signup */}
+          <div className="space-y-4">
+            <h4 className="text-lg font-semibold text-yellow-300 mb-4">Stay Updated</h4>
+            <p className="text-gray-300">Subscribe to our newsletter for the latest artisan stories and offers.</p>
+            <form className="flex flex-col sm:flex-row gap-2">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="px-4 py-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-yellow-300"
+                required
+              />
+              <button
+                type="submit"
+                className="btn-primary py-3 px-6 rounded-lg text-sm hover:scale-105 transition-all duration-300"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="mt-12 pt-6 border-t border-gray-700 text-center">
+          <p className="text-sm text-gray-400">
+            © {new Date().getFullYear()} ArtisanHub | All rights reserved |
+            <a href="/terms" className="text-yellow-300 hover:underline ml-2">Terms</a> |
+            <a href="/privacy" className="text-yellow-300 hover:underline ml-2">Privacy</a>
+          </p>
+          <p className="text-xs text-gray-500 mt-2">
+            Built with ❤️ in India | Version 1.0 | Last updated: {new Date().toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit', hour12: true })} IST
+          </p>
+        </div>
+      </footer>
     </div>
+    
   );
 };
 

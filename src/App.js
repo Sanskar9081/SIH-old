@@ -13,6 +13,7 @@ import Checkout from './pages/Checkout';
 import UploadProduct from './pages/UploadProduct';
 import ManageStock from './pages/ManageStock';
 import Earnings from './pages/Earnings';
+import FAQ from './pages/FAQ';
 
 function App() {
   const [userRole, setUserRole] = useState(null); // 'buyer', 'seller', 'admin'
@@ -34,6 +35,8 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<Login onLogin={handleLogin} />} />
         <Route path="/signup" element={<Signup onSignup={handleLogin} />} />
+        <Route path="/faq" element={<FAQ />} />
+        
         {isAuthenticated ? (
           <>
             {userRole === 'buyer' && (

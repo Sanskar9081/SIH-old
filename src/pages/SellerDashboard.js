@@ -51,7 +51,7 @@ const SellerDashboard = ({ onLogout }) => {
                 <span className="text-2xl">🧑‍🎨</span>
               </div>
               <div>
-                <h1 className="text-2xl font-bold bg-gradient-to-r from-indigo to-purple bg-clip-text text-transparent">
+                <h1 className="text-2xl font-bold text-black">
                   Artisan Dashboard
                 </h1>
                 <p className="text-sm text-gray-600">Welcome back! Ready to create magic?</p>

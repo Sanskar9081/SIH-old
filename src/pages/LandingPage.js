@@ -121,19 +121,7 @@ const LandingPage = () => {
               <span className="block mt-4 text-yellow-200">Experience the soul of India through authentic, handmade treasures that tell stories of tradition and artistry.</span>
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-6 mb-12 max-w-4xl mx-auto">
-            {[
-              { number: '50K+', label: 'Artisans', icon: '🪶' },
-              { number: '1M+', label: 'Products', icon: '🪔' },
-              { number: '98%', label: 'Satisfaction', icon: '⭐' }
-            ].map((stat, index) => (
-              <div key={index} className="card text-center p-6 transform hover:scale-105 transition-transform duration-300">
-                <div className="text-4xl mb-4">{stat.icon}</div>
-                <div className="text-3xl font-bold text-indigo mb-2">{stat.number}</div>
-                <div className="text-gray-600 font-medium">{stat.label}</div>
-              </div>
-            ))}
-          </div>
+         
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Link to="/signup" className="btn-primary text-lg">Start Selling</Link>
             <Link to="/login" className="btn-secondary text-lg">Explore Products</Link>
